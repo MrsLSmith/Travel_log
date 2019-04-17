@@ -105,6 +105,7 @@ export default class App extends React.Component {
             style={styles.txtInput}
           />
           <Button title='Save'onPress={this.addItem}/>
+          <Text>gittest</Text>
           </View>
           <FlatList
             data={this.state.messages}
